@@ -19,6 +19,24 @@
             layers = <0>;
             bindings = <&kp ESC>;
         };
+        combo_bksp {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            layers = <0>;
+            bindings = <&kp BSPC>;
+        };
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <26 27>;
+            layers = <0>;
+            bindings = <&kp TAB>;
+        };
+        combo_enter {
+            timeout-ms = <50>;
+            key-positions = <32 33>;
+            layers = <0>;
+            bindings = <&kp ENTER>;
+        };
     };
 };
 

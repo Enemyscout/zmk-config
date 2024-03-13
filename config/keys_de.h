@@ -103,3 +103,4 @@
 #define DE_TILD RA(DE_PLUS) // ~
 #define DE_PIPE RA(DE_LABK) // |
 #define DE_MICR RA(DE_M)    // µ
+#define DE_3FS LA(RC(DEL))  // 3 Finger Salute

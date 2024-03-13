@@ -9,6 +9,19 @@
 #include <dt-bindings/zmk/keys.h>
 #include "keys_de.h"
 
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            layers = <0>;
+            bindings = <&kp ESC>;
+        };
+    };
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";

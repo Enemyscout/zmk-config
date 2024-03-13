@@ -97,7 +97,7 @@
             //                      | tran | tran | tran |   | tran | tran | tran |
 
             bindings = <
-&trans  &trans       &kp DE_SUP2  &kp DE_SUP3  &trans  &trans    &trams       &kp DE_UDIA  &trans  &kp DE_ODIA  &trans  &trans
+&trans  &trans       &kp DE_SUP2  &kp DE_SUP3  &trans  &trans    &trans       &kp DE_UDIA  &trans  &kp DE_ODIA  &trans  &trans
 &trans  &kp DE_ADIA  &kp DE_SS    &trans       &trans  &trans    &trans       &trans       &trans  &trans       &trans  &trans
 &trans  &trans       &trans       &trans       &trans  &trans    &trans       &kp DE_MICR  &trans  &trans       &trans  &trans
                                   &trans       &trans  &trans    &trans       &trans       &trans

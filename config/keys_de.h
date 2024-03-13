@@ -44,9 +44,9 @@
 #define DE_B    B    // B
 #define DE_N    N    // N
 #define DE_M    M    // M
-#define DE_COMMA COMMA // ,
+#define DE_COMM COMMA // ,
 #define DE_DOT  DOT  // .
-#define DE_MINUS SLSH // -
+#define DE_MINS SLSH // -
 #define DE_DEG  LS(DE_CIRC) // °
 #define DE_EXLM LS(DE_1)    // !
 #define DE_DQUO LS(DE_2)    // "
@@ -63,9 +63,9 @@
 #define DE_ASTR LS(DE_PLUS) // *
 #define DE_QUOT LS(DE_HASH) // '
 #define DE_RABK LS(DE_LABK) // >
-#define DE_SCLN LS(DE_COMMA) // ;
+#define DE_SCLN LS(DE_COMM) // ;
 #define DE_COLN LS(DE_DOT)  // :
-#define DE_UNDS LS(DE_MINUS) // _
+#define DE_UNDS LS(DE_MINS) // _
 #define DE_SUP2 RA(DE_2)    // ²
 #define DE_SUP3 RA(DE_3)    // ³
 #define DE_LCBR RA(DE_7)    // {

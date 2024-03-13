@@ -45,7 +45,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            // -----------------------------------------------------------------------------------------
+            // ---------------------------------------------------------------------------------
             // | MO2  |  Q  |  W  |  E  |  R   |  T  |   |  Y  |  U   |  I  |  O  |  P  | MO2  |
             // | MO1  |  A  |  S  |  D  |  F   |  G  |   |  H  |  J   |  K  |  L  | SL3 | MO1  |
             // | SHFT |  Z  |  X  |  C  |  V   |  B  |   |  N  |  M   |  ,  |  .  |  -  | SHFT |
@@ -60,11 +60,11 @@
         };
 
         symbol {
-            // -----------------------------------------------------------------------------------------
-            // | tran      | @ §    | + ~ | - _  | * % | / \  |   | ` ´  |  7     |  8   |  9  |   ? | tran      |
-            // | tran      | = "|"  |  {  |  (   |  )  |  }   |   | " '  |  4     |  5   |  6  | ! # | tran      |
-            // | caps_word | $ €    |  <  |  [   |  ]  |  >   |   | 0 &  |  1     |  2   |  3  | ° ^ | caps_word |
-            //                       | tran | GUI | BSPC |   | BSPC | K_MENU | tran |
+            // -----------------------------------------------------------------------------------------------------
+            // | tran      | @ §    | + ~  | - _  | * %  | / \  |   | ` ´  |  7     |  8   |  9  |   ? | tran      |
+            // | tran      | = "|"  |  {   |  (   |  )   |  }   |   | " '  |  4     |  5   |  6  | ! # | tran      |
+            // | caps_word | $ €    |  <   |  [   |  ]   |  >   |   | 0 &  |  1     |  2   |  3  | ° ^ | caps_word |
+            //                             | tran | GUI  | BSPC |   | BSPC | K_MENU | tran |
 
             bindings = <
 &trans      &mt DE_SECT DE_AT   &mt DE_TILD DE_PLUS  &mt DE_UNDS DE_MINUS  &mt DE_PERC DE_ASTR  &mt DE_BSLS DE_SLSH      &bt LS(DE_ACUT) DE_ACUT  &kp DE_7    &kp DE_8  &kp DE_9   &kp DE_QUES          &trans
@@ -75,7 +75,7 @@
         };
 
         move {
-            // -----------------------------------------------------------------------------------------
+            // -------------------------------------------------------------------------------------------
             // | tran | F6  | F7  | F8  | F9  | F10 |   | HOME | PG_DN  | PG_UP  | END     | BKSP | tran |
             // | tran | F1  | F2  | F3  | F4  | F5  |   | LEFT | DOWN   | UP     | RIGHT   | TAB  | tran |
             // | tran | F11 | F12 | NA  | NA  | NA  |   | NA   | K_COPY | K_CUT  | K_PASTE | DEL  | tran |
@@ -105,15 +105,15 @@
         };
         
         system {
-            // -----------------------------------------------------------------------------------------
-            // | tran | tran | ²    | ²    | tran | tran |   | Ü    | tran | Ö    | tran | tran | tran |
-            // | tran | Ä    | ß    | tran | tran | tran |   | tran | tran | tran | tran | tran | tran |
-            // | tran | tran | tran | tran | tran | tran |   | tran | µ    | tran | tran | tran | tran |
-            //                      | tran | tran | tran |   | tran | tran | tran |
+            // --------------------------------------------------------------------------------------------------------
+            // | K_SLEEP | NA       | NA       | NA       | NA       | NA       |   | NA | NA | NA | NA | NA | DE_3FS |
+            // | NA      | NA       | NA       | NA       | NA       | NA       |   | NA | NA | NA | NA | NA | NA     |
+            // | BT_CLR  | BT_SEL 0 | BT_SEL 1 | BT_SEL 2 | BT_SEL 3 | BT_SEL 4 |   | NA | NA | NA | NA | NA | NA     |
+            //                                 | NA       | NA       | NA       |   | NA | NA | NA |
 
             bindings = <
 &kp K_SLEEP  &none         &none         &none         &none          &none            &none  &none  &none  &none  &none  &kp DE_3FS
-&none        &none         &none         &none         &trans         &none            &none  &none  &none  &none  &none  &none
+&none        &none         &none         &none         &none          &none            &none  &none  &none  &none  &none  &none
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4     &none  &none  &none  &none  &none  &none
                                          &none         &none          &none            &none  &none  &none
             >;

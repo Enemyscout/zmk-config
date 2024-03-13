@@ -21,10 +21,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mo 2      &kp Q     &kp W  &kp E     &kp R  &kp T        &kp DE_Z   &kp U  &kp I      &kp O    &kp P         &mo 2
-&mo 1      &kp A     &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &sl 3         &mo 1
-&kp LSHFT  &kp DE_Y  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp DE_MINUS  &kp ESC
-                            &kp LGUI  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp RALT
+&mo 2      &kp Q  &kp W  &kp E     &kp R  &kp T        &none      &kp U  &kp I     &kp O  &kp P  &mo 2
+&mo 1      &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K     &kp L  &sl 3  &mo 1
+&kp LSHFT  &none  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &none     &none  &none  &kp ESC
+                         &kp LGUI  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -60,10 +60,10 @@
 
         umlaut {
             bindings = <
-&trans           &trans         &trans  &trans  &trans  &trans    &trans  &kp DE_U_UMLAUT  &trans  &kp DE_O_UMLAUT  &trans  &trans
-&kp DE_A_UMLAUT  &kp DE_ESZETT  &trans  &trans  &trans  &trans    &trans  &trans           &trans  &trans           &trans  &trans
-&trans           &trans         &trans  &trans  &trans  &trans    &trans  &trans           &trans  &trans           &trans  &trans
-                                        &trans  &trans  &trans    &trans  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &none   &trans  &none   &trans  &trans
+&none   &none   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };

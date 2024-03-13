@@ -1,3 +1,8 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+
+
 // Aliases
 #define DE_CIRC GRAVE  // ^ (dead)
 #define DE_1    N1    // 1

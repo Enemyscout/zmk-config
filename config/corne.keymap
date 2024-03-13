@@ -55,7 +55,7 @@
 &mo 2      &kp Q     &kp W  &kp E  &kp R         &kp T        &kp DE_Z   &kp U      &kp I         &kp O       &kp P         &mo 2
 &mo 1      &kp A     &kp S  &kp D  &kp F         &kp G        &kp H      &kp J      &kp K         &kp L       &sl 3         &mo 1
 &kp LSHFT  &kp DE_Y  &kp X  &kp C  &kp V         &kp B        &kp N      &kp M      &kp DE_COMMA  &kp DE_DOT  &kp DE_MINUS  &kp RSHFT
-                            &none  &kp LALT      &kp SPACE    &kp SPACE  &kp RCTRL  &none
+                            &mo 4  &kp LALT      &kp SPACE    &kp SPACE  &kp RCTRL  &mo 4
             >;
         };
 
@@ -97,10 +97,25 @@
             //                      | tran | tran | tran |   | tran | tran | tran |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &none   &trans  &none   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans       &kp DE_SUP2  &kp DE_SUP3  &trans  &trans    &kp DE_UDIA  &none        &kp DE_ODIA  &none   &trans  &trans
+&trans  &kp DE_ADIA  &kp DE_SS    &trans       &trans  &trans    &trans       &trans       &trans       &trans  &trans  &trans
+&trans  &trans       &trans       &trans       &trans  &trans    &trans       &kp DE_MICR  &trans       &trans  &trans  &trans
+                                  &trans       &trans  &trans    &trans       &trans       &trans
+            >;
+        };
+        
+        system {
+            // -----------------------------------------------------------------------------------------
+            // | tran | tran | ²    | ²    | tran | tran |   | Ü    | tran | Ö    | tran | tran | tran |
+            // | tran | Ä    | ß    | tran | tran | tran |   | tran | tran | tran | tran | tran | tran |
+            // | tran | tran | tran | tran | tran | tran |   | tran | µ    | tran | tran | tran | tran |
+            //                      | tran | tran | tran |   | tran | tran | tran |
+
+            bindings = <
+&kp SLEEP  &none      &none      &none      &none       &none         &none  &none  &none  &none  &none  &kp DE_3FS
+&none      &none      &none      &none      &trans      &none         &none  &none  &none  &none  &none  &none
+&bt_clr    &bt_sel 0  &bt_sel 1  &bt_sel 2  &bt_sel 3   &bt_sel 4     &none  &none  &none  &none  &none  &none
+                                 &none      &none       &none         &none  &none  &none
             >;
         };
     };

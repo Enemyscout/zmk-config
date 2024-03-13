@@ -112,10 +112,10 @@
             //                      | tran | tran | tran |   | tran | tran | tran |
 
             bindings = <
-&kp K_SLEEP  &none      &none      &none      &none       &none         &none  &none  &none  &none  &none  &kp DE_3FS
-&none        &none      &none      &none      &trans      &none         &none  &none  &none  &none  &none  &none
-&bt_clr      &bt_sel 0  &bt_sel 1  &bt_sel 2  &bt_sel 3   &bt_sel 4     &none  &none  &none  &none  &none  &none
-                                   &none      &none       &none         &none  &none  &none
+&kp K_SLEEP  &none         &none         &none         &none          &none            &none  &none  &none  &none  &none  &kp DE_3FS
+&none        &none         &none         &none         &trans         &none            &none  &none  &none  &none  &none  &none
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4     &none  &none  &none  &none  &none  &none
+                                         &none         &none          &none            &none  &none  &none
             >;
         };
     };

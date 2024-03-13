@@ -71,7 +71,7 @@
 #define DE_M    M    // M
 #define DE_COMM COMMA // ,
 #define DE_DOT  DOT  // .
-#define DE_MINS SLSH // -
+#define DE_MINS SLASH // -
 #define DE_DEG  LS(DE_CIRC) // °
 #define DE_EXLM LS(DE_1)    // !
 #define DE_DQUO LS(DE_2)    // "

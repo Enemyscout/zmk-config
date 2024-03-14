@@ -9,6 +9,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include "keys_de.h"
 
+/* 
+ * This macro sends the the @ for PC and Apple devices in one go because Apple
+ * can't be bothered to be use conventions :(
+ */
+
 / {
     macros {
         M_AT: M_AT {
@@ -22,6 +27,11 @@
         };
     };
 };
+
+
+/*
+ * Combos for ESC, Backspace, TAB and ENTER
+ */
 
 / {
     combos {

@@ -104,3 +104,4 @@
 #define DE_PIPE RA(DE_LABK) // |
 #define DE_MICR RA(DE_M)    // µ
 #define DE_3FS LA(RC(DEL))  // 3 Finger Salute
+#define DE_AAT RA(L)  // Apple AT

@@ -25,7 +25,7 @@
                 , <&macro_release &kp RALT>
                 ;
         };
-        TD_AT {
+        TD_AT: TD_AT {
             compatible = "zmk,behavior-hold-tap";
             label = "TD_AT";
             #binding-cells = <2>;

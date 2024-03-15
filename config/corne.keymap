@@ -119,8 +119,8 @@
         system {
             // --------------------------------------------------------------------------------------------------------
             // | K_SLEEP | NA       | NA       | NA       | NA       | NA       |   | NA | NA | NA | NA | NA | DE_3FS |
-            // | NA      | NA       | NA       | NA       | NA       | NA       |   | NA | NA | NA | NA | NA | NA     |
-            // | BT_CLR  | BT_SEL 0 | BT_SEL 1 | BT_SEL 2 | BT_SEL 3 | BT_SEL 4 |   | NA | NA | NA | NA | NA | K_LOCK |
+            // | K_PWR   | NA       | NA       | NA       | NA       | NA       |   | NA | NA | NA | NA | NA | NA     |
+            // | NA      | BT_SEL 0 | BT_SEL 1 | BT_SEL 2 | BT_SEL 3 | BT_SEL 4 |   | NA | NA | NA | NA | NA | K_LOCK |
             //                                 | NA       | NA       | NA       |   | NA | NA | NA |
 
             bindings = <

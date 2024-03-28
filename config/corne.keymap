@@ -58,7 +58,7 @@
 / {
     behaviors {
       slsr: sticky_layer_slow_release {
-        compatible = "zmk,behavior-sticky-layer";
+        compatible = "zmk,behavior-sticky-key";
         #binding-cells = <1>;
         bindings = <&sl>;
         release-after-ms = <1000>;
